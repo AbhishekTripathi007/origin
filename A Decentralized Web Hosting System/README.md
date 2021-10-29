@@ -1,5 +1,5 @@
 Overview
-This is the code for this video on Youtube by Siraj Raval. It's a guide on how to build your first decentralized application.
+This is the code for a Decentralized Web Hosting System. It's a guide on how to build your first decentralized application.
 
 Dependencies
 ethereumjs-testrpc
@@ -16,7 +16,7 @@ After all dependancies are installed, run the testrpc service with:
 node_modules/ethereumjs-testrpc/build/cli.node.js
 Run the following commands to open the node console then deploy your contract to the test chain
 
-siraj:~/hello_world_voting$ node
+abhishek:~/hello_world_voting$ node
 > Web3 = require('web3')
 > web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
 > code = fs.readFileSync('Voting.sol').toString()
